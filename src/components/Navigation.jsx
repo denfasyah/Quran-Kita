@@ -44,8 +44,6 @@ const Navigation = () => {
               Beranda
             </Nav.Link>
             <Nav.Link href="/asmaulhusna">Asmaul Husna</Nav.Link>
-            <Nav.Link href="/kumpulandoa">Kumpulan Doa</Nav.Link>
-            <Nav.Link href="/contact">Jadwal Sholat</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </div>
