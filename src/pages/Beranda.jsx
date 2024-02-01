@@ -6,6 +6,7 @@
 import { useState, useEffect } from "react";
 import { getSurahList } from "../services/apiSurah";
 import CardSurah from "../components/CardSurah";
+import "../assets/css/Beranda.css";
 
 const Beranda = () => {
   const [surahList, setSurahList] = useState([]);
@@ -40,7 +41,7 @@ const Beranda = () => {
   return (
     <>
       <br /> <br />
-      <div className="container mt-5">
+      <div className="container body mt-5">
         <center>
           <div className="search">
             <input
@@ -72,7 +73,5 @@ const Beranda = () => {
     </>
   );
 };
-
-
 
 export default Beranda;

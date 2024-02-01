@@ -3,14 +3,14 @@
 import "../assets/css/MyCard.css";
 const CardSurah = ({ surah }) => {
   return (
-    <div className="col-md-4 col-sm-6">
-      <a href={`/detailsurah/${surah.nomor}`} className="container card">
-        <div className="header">{surah.nomor}</div>
-        <div className="info">
+    <div className="col-lg-3 mt-3 col-md-4 col-sm-6">
+        <div className="wrapper-card">
+      <a href={`/detailsurah/${surah.nomor}`} className="container link-card">
+          <p className="title">{surah.nomor}</p>
           <p className="title">{surah.nama}</p>
-          {/* <p className="title">{surah.arti}</p> */}
-        </div>
+          <p className="asma">{surah.asma}</p>
       </a>
+        </div>
     </div>
   );
 };

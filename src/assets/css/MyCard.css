@@ -1,0 +1,28 @@
+/* MyCard.css */
+
+.wrapper-card {
+  gap: 2px;
+  margin-top: 1px;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between; /* Updated to use space-between */
+}
+.wrapper-card:hover{
+    border: 1px solid blue;
+}
+
+.link-card {
+  display: flex;
+  flex-direction: row; /* Updated to column to stack content vertically */
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.asma {
+  color: grey;
+}

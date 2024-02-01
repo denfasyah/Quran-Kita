@@ -11,7 +11,7 @@ const Navigation = () => {
 
   return (
     <Navbar expand="lg" fixed="top">
-      <div className="container">
+      <div className="container wrapper">
         <Navbar.Brand href="#">Quran Kita</Navbar.Brand>
         <Navbar.Toggle
           aria-controls="navbarNavAltMarkup"
